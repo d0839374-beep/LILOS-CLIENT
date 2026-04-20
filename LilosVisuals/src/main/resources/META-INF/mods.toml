@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="lilosvisuals"
+version="${file.jarVersion}"
+displayName="Lilo's Visuals"
+authors=["Lilo"]
+description='''A modern visual mod with custom ClickGUI, HUD, and screen replacements for Minecraft 1.16.5'''
+logoFile="logo.png"
+credits="Lilo"
+
+[[dependencies.lilosvisuals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lilosvisuals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "lilosvisuals.mixins.json"
