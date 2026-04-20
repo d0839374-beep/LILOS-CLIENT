@@ -1,27 +1,27 @@
-[mods]
 modLoader="javafml"
 loaderVersion="[36,)"
 license="MIT"
 
 [[mods]]
 modId="lilosvisuals"
-version="1.0.0"
-displayName="Lilos Visuals"
+version="${file.jarVersion}"
+displayName="Lilo's Visuals ULTRA"
 authors="Lilo"
 description='''
-Modern visual mod with custom ClickGUI, HUD and screen replacements.
+Ultra-modern visual mod with advanced ClickGUI, custom HUD, animated screen replacements, and extensive customization options. Features include smooth animations, gradient rendering, rounded corners, and 5 module categories.
 '''
+logoFile="icon.png"
 
 [[dependencies.lilosvisuals]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[36.2.0,)"
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
 
 [[dependencies.lilosvisuals]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
