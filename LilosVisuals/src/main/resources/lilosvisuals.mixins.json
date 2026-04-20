@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.lilo.visuals.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "lilosvisuals.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinTitleScreen",
+    "MixinPauseScreen",
+    "MixinInGameOverlay"
+  ],
+  "minVersion": "0.8"
+}
